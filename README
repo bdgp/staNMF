@@ -1,0 +1,35 @@
+This folder contains R and Matlab code related to the following paper:
+
+Stability driven nonnegative matrix factorization to interpret spatial gene expression and build local gene networks
+
+by Siqi Wu, Antony Joseph, Ann S. Hammonds, Susan E. Celniker, Bin Yu and Erwin Frise
+
+The folder was last updated by Siqi Wu on March 30, 2016.
+See http://insitu.fruity.org/downloads for the latest version and the data.
+
+We assume that the necessary data files (*.csv) are stored in ../ . If you download our data to a different location, please modify the paths accordingly in our files.
+
+Our R and Matlab code admits a few experimental usages and has not been extensively tested. Please email brothercutter@gmail.com to report bugs.
+
+
+
+Matlab code 
+
+staNMF_genDicts.m generates dictionaries of different sizes. Since the program takes a long time to run, the results are already stored in ./staNMFDicts/K=* as .mat files.
+
+staNMF_chooseK.m computes the instability quantity to choose the rank of NMF.
+
+staNMF_bestDict.m finds the dictionary with the lowest objective function value given the rank selected by staNMF_chooseK.m.
+
+
+R code
+
+The file tutorial.R contains examples for displaying and analyzing spatial gene expression in Drosophila embryos.
+
+lasso_nls.R performs the LASSO+NLS procedure described in our paper. It generates sPP coefficients that are identical to those in sPPcoefPatterns.csv.
+
+sPPAnalysis.R analyzes sPP coefficients.
+
+SLCN.R produces spatially local correlation networks.
+
+
