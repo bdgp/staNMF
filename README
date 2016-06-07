@@ -1,11 +1,12 @@
-This folder contains R and Matlab code related to the following paper:
+This repository contains R and Matlab code related to the following paper:
 
 Stability driven nonnegative matrix factorization to interpret spatial gene expression and build local gene networks
 
 by Siqi Wu, Antony Joseph, Ann S. Hammonds, Susan E. Celniker, Bin Yu and Erwin Frise
 
-The folder was last updated by Siqi Wu on March 30, 2016.
-See http://insitu.fruity.org/downloads for the latest version and the data.
+http://www.pnas.org/cgi/doi/10.1073/pnas.1521171113
+
+See http://insitu.fruity.org/downloads for data.
 
 We assume that the necessary data files (*.csv) are stored in ../ . If you download our data to a different location, please modify the paths accordingly in our files.
 
